@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/Geist_WOFF2.woff2") format("woff2");
+  font-display: swap;
+}
+
+@theme {
+  --color-tropical-rain-forest-25: #f7fffd;
+  --color-tropical-rain-forest-50: #edfffa;
+  --color-tropical-rain-forest-100: #c2fff1;
+  --color-tropical-rain-forest-200: #84ffe6;
+  --color-tropical-rain-forest-300: #3fffd7;
+  --color-tropical-rain-forest-400: #08f9c5;
+  --color-tropical-rain-forest-500: #00dcae;
+  --color-tropical-rain-forest-600: #00b290;
+  --color-tropical-rain-forest-700: #008d74;
+  --color-tropical-rain-forest-800: #007260;
+  --color-tropical-rain-forest-900: #065b4d;
+  --color-tropical-rain-forest-950: #003832;
+
+  --color-mint: #e0f5f3;
+}
+
+body {
+  font-family: "Geist", sans-serif;
+}
+
+.mapboxgl-popup-content {
+  padding: 8px !important;
+}
