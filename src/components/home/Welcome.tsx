@@ -30,7 +30,7 @@ const Welcome = () => {
           </div>
           <div className="relative">
             <img
-              src="/home image.png"
+              src="/home image.webp"
               alt="Pareja feliz reunida con su perro y gato"
               className="rounded-2xl shadow-2xl"
             />

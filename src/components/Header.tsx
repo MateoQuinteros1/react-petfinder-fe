@@ -43,7 +43,11 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(true)}
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
-            <Bars3Icon aria-hidden="true" className="size-6 cursor-pointer" />
+            <Bars3Icon
+              aria-label="Abrir menú"
+              aria-hidden="true"
+              className="size-6 cursor-pointer"
+            />
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
